@@ -11,9 +11,14 @@ module.exports = {
       ...colors,
       primary: '#1d4ed8',
       secondary: '#374151',
-      tertiary: '#a8a29e'
+      tertiary: '#a8a29e',
+      fourthy: '#e2e8f0'
     },
-    extend: {}
+    extend: {
+      animation: {
+        'spin-slow': 'spin 5s linear infinite'
+      }
+    }
   },
   plugins: []
 }

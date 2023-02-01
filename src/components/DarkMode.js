@@ -37,7 +37,7 @@ export const DarkMode = () => {
   } else {
     return (
       <Button
-        className='bg-gray-200'
+        className='bg-fourthy'
         onClick={() => {
           setTheme('dark')
           setDarkMode('dark')
