@@ -1,5 +1,5 @@
 {
   "extends": [
-    "./node_modules/standard/eslintrc.json",
-    "eslint-config-prettier"]
+    "./node_modules/standard/eslintrc.json"
+]
 }

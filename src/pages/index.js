@@ -1,7 +1,7 @@
-export default function Home() {
+import { Hero } from '@/sections/Hero'
+
+export default function Home () {
   return (
-    <h1 className="text-3xl font-bold underline">
-      content
-    </h1>
+    <Hero />
   )
 }
