@@ -7,7 +7,7 @@ export const Layout = ({ children }) => {
     <>
       <Head>
         <title>David Prado Portafolio</title>
-        <meta name='description' content='David Prado Portafolio in next and tailwind'/>
+        <meta name='description' content='David Prado Portafolio in next and tailwind' />
       </Head>
       <div className='min-h-screen flex flex-col'>
         <Header />

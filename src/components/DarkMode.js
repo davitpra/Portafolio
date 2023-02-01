@@ -4,21 +4,32 @@ import { BsFillSunFill, BsMoonFill } from 'react-icons/bs'
 import { Button } from './Button'
 
 export const DarkMode = () => {
+  // estado para sabe si el button ya fue renderizado
   const [mounted, setMounted] = useState(false)
+  // variables para obtener el theme del navegador
   const { systemTheme, theme, setTheme } = useTheme()
+  const [darkMode, setDarkMode] = useState()
 
-  const currentTheme = theme === 'system' ? systemTheme : theme
-
+  // efecto para hacer el primer pintado
   useEffect(() => {
     setMounted(true)
+    setDarkMode(
+      theme === 'system'
+        ? systemTheme
+        : theme
+    )
   }, [])
 
-  if (currentTheme === 'dark') {
+  // condicional para cambiar el estado darkMode
+  if (darkMode === 'dark') {
     if (!mounted) return null
     return (
       <Button
         className='bg-secondary'
-        onClick={() => setTheme('light')}
+        onClick={() => {
+          setTheme('light')
+          setDarkMode('light')
+        }}
       >
         <BsFillSunFill size='20px' />
       </Button>
@@ -27,7 +38,10 @@ export const DarkMode = () => {
     return (
       <Button
         className='bg-gray-200'
-        onClick={() => setTheme('dark')}
+        onClick={() => {
+          setTheme('dark')
+          setDarkMode('dark')
+        }}
       >
         <BsMoonFill size='20px' />
       </Button>
