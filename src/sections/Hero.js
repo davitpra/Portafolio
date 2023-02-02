@@ -3,7 +3,7 @@ import { Button } from '@/components/Button'
 export const Hero = () => {
   return (
     <section
-      className='m-16 mb-40'
+      className='m-16 mb-40 h-auto'
     >
       <h1 className='text-7xl font-bold'>
         Hi! I am <span className='dark:text-primary'>David</span>

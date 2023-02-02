@@ -14,7 +14,7 @@ export const Skills = () => {
           <SkillCard
             {...skill}
             key={skill.name}
-            className='flex flex-col items-center shadow-md hover:shadow-xl dark:ring-primary dark:shadow-white traslation_animated'
+            className='flex flex-col items-center shadow-md hover:shadow-xl dark:ring-primary dark:shadow-primary traslation_animated'
           />)}
       </SkillList>
     </>

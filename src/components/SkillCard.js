@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export const SkillCard = ({ name, level, svg, className }) => {
   return (
-    <li className={`h-56 w-44 bg-white m-4 p-4 hover:ring-2 hover:ring-tertiary rounded-md ${className}`}>
+    <li className={`h-56 w-36 bg-white m-4 p-4 hover:ring-2 hover:ring-tertiary rounded-md ${className}`}>
       <div className='w-20 h-28 flex justify-center items-center'>
         <Image src={`./svg/${svg}`} width='70' height='70' />
       </div>

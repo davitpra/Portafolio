@@ -40,7 +40,12 @@ export const skills = [
     svg: 'tailwind-icon.svg'
   },
   {
-    name: 'Git & Git-Hub',
+    name: 'Git',
+    level: 'Intermidian',
+    svg: 'git-icon.svg'
+  },
+  {
+    name: 'Git-Hub',
     level: 'Intermidian',
     svg: 'github-icon.svg'
   },
