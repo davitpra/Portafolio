@@ -16,7 +16,7 @@ export const skills = [
   },
   {
     name: 'TypeScript',
-    level: 'Basic',
+    level: 'Intermidian',
     svg: 'typescript-icon.svg'
   },
   {

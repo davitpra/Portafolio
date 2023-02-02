@@ -10,6 +10,6 @@
 
 @layer components{
     .traslation_animated{
-        @apply transform transition-all hover:-translate-y-4;
+        @apply transform transition-all hover:-translate-y-1;
     }
 }

@@ -4,7 +4,8 @@ import { DarkMode } from '@/components/DarkMode'
 export const Header = () => {
   const navigation = [
     { label: 'Home', path: '/' },
-    { label: 'About', path: '/about' }
+    { label: 'About', path: '/about' },
+    { label: 'Skills', path: '/skills' }
   ]
 
   return (

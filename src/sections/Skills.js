@@ -6,10 +6,10 @@ import { skills } from '@/data/skillsList'
 
 export const Skills = () => {
   return (
-    <>
+    <section className='mt-20'>
       <Title title='Skills' />
-      <Subtitle subtitle='This is my list of technologies that I handle: ' />
-      <SkillList className='flex-wrap'>
+      <Subtitle subtitle='This is my list of technologies that I handle: ' className='mx-5' />
+      <SkillList className='overflow-x-auto scrollbar-hide lg:scrollbar-default overflow-y-hidden'>
         {skills.map(skill =>
           <SkillCard
             {...skill}
@@ -17,6 +17,6 @@ export const Skills = () => {
             className='flex flex-col items-center shadow-md hover:shadow-xl dark:ring-primary dark:shadow-primary traslation_animated'
           />)}
       </SkillList>
-    </>
+    </section>
   )
 }

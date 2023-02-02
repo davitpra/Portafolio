@@ -2,7 +2,7 @@
 export const Subtitle = ({ subtitle, className }) => {
   return (
     <h3
-      className={`m-5 ${className}`}
+      className={` ${className}`}
     >
       {subtitle}
     </h3>
