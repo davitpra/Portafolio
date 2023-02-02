@@ -8,13 +8,13 @@ export const Header = () => {
   ]
 
   return (
-    <header className='h-16 flex items-center justify-between'>
+    <header className='h-16 flex items-center justify-between border-b-4 border-primary'>
       <ul className='flex gap-4'>
         {navigation.map(nav =>
           <Link
             href={nav.path}
             key={nav.label}
-            className='font-semibold text-tertiary hover:text-secondary dark:hover:text-white'
+            className='font-semibold text-tertiary hover:text-secondary dark:hover:text-white traslation_animated'
           >
             {nav.label}
           </Link>

@@ -8,13 +8,13 @@ export const Skills = () => {
   return (
     <>
       <Title title='Skills' />
-      <Subtitle subtitle='List of interface development technologies: ' />
+      <Subtitle subtitle='This is my list of technologies that I handle: ' />
       <SkillList className='flex-wrap'>
         {skills.map(skill =>
           <SkillCard
             {...skill}
             key={skill.name}
-            className='flex flex-col items-center'
+            className='flex flex-col items-center shadow-md hover:shadow-xl dark:ring-primary dark:shadow-white traslation_animated'
           />)}
       </SkillList>
     </>
