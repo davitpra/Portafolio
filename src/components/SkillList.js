@@ -1,7 +1,7 @@
-export const SkillList = ({ children }) => {
+export const SkillList = ({ children, className }) => {
   return (
-    <div>
+    <ul className={`flex justify-center item-center ${className}`}>
       {children}
-    </div>
+    </ul>
   )
 }
