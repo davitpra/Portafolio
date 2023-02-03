@@ -15,7 +15,7 @@ export const Header = () => {
           <Link
             href={nav.path}
             key={nav.label}
-            className='font-semibold text-tertiary hover:text-secondary dark:hover:text-white traslation_animated'
+            className='font-semibold traslation_animated'
           >
             {nav.label}
           </Link>

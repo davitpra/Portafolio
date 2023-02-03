@@ -6,7 +6,7 @@ import { AiFillGithub } from 'react-icons/ai'
 export const About = () => {
   return (
     // container
-    <section className='flex justify-center mb-40 '>
+    <section className='flex justify-center mt-10 mb-10'>
       {/* card */}
       <div className='w-full max-w-3xl flex justify-center rounded-lg shadow-xl py-5 ring-1 ring-tertiary bg-white dark:shadow-primary'>
         <div className='flex flex-col md:flex-row w-5/6 md:5/6 md:space-x-8 space-y-4'>
