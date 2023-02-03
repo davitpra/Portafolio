@@ -1,3 +1,4 @@
+import { Border } from '@/components/Border'
 import { SkillCard } from '@/components/SkillCard'
 import { SkillList } from '@/components/SkillList'
 import { Subtitle } from '@/components/Subtitle'
@@ -6,17 +7,19 @@ import { skills } from '@/data/skillsList'
 
 export default function skill () {
   return (
-    <section className='mt-20'>
-      <Title title='Skills' />
-      <Subtitle subtitle='This is my list of technologies that I handle: ' className='mx-5' />
-      <SkillList className='flex-wrap justify-center'>
-        {skills.map(skill =>
-          <SkillCard
-            {...skill}
-            key={skill.name}
-            className='flex flex-col items-center shadow-md hover:shadow-xl dark:ring-primary dark:shadow-primary traslation_animated'
-          />)}
-      </SkillList>
-    </section>
+    <Border>
+      <div className='w-5/6'>
+        <Title title='Skills' />
+        <Subtitle subtitle='This is my list of technologies that I handle: ' className='py-3' />
+        <SkillList className='flex-wrap'>
+          {skills.map(skill =>
+            <SkillCard
+              {...skill}
+              key={skill.name}
+              className=''
+            />)}
+        </SkillList>
+      </div>
+    </Border>
   )
 }

@@ -1,32 +1,28 @@
 import { Border } from '@/components/Border'
-import { Button } from '@/components/Button'
+import { PrimaryButton } from '@/components/PrimaryButton'
+import { SecondaryButton } from '@/components/SecondaryButton'
 
 export const Hero = () => {
   return (
     <>
       <Border>
-        <div>
-          <section
+        <div className='w-5/6 my-6'>
+          <article
             className='h-auto'
           >
             <p className='text-4xl font-bold'>Hi! I am </p>
             <h1 className='text-7xl font-bold dark:text-primary my-3'>David Prado</h1>
             <h3 className='text-4xl my-3 '> I am Frontend Developer</h3>
-          </section>
-          <div className='w-full flex justify-center space-x-12 mt-6'>
-            <Button
-              className=' w-40 bg-primary text-white px-6'
-            >
+          </article>
+          <div className='w-full flex flex-wrap justify-center items-center mt-6'>
+            <PrimaryButton>
               Hire Me!
-            </Button>
-            <Button
-              className='w-40 bg-fourthy text-black font-semibold px-6'
-            >
+            </PrimaryButton>
+            <SecondaryButton>
               Curriculum
-            </Button>
+            </SecondaryButton>
           </div>
         </div>
-
       </Border>
 
     </>

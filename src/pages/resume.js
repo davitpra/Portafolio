@@ -1,4 +1,3 @@
-import { Projects } from '@/sections/Projects'
 
 const About = () => {
   return (
@@ -6,7 +5,7 @@ const About = () => {
       <div className='text-center text-semibold mt-20 text-2xl'>
         About
       </div>
-      <Projects />
+
     </>
   )
 }
