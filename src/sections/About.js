@@ -5,14 +5,18 @@ import { AiFillGithub } from 'react-icons/ai'
 
 export const About = () => {
   return (
-    <section className='flex justify-center '>
-      <div className='w-full max-w-lg flex justify-center rounded-lg shadow-xl py-5 ring-1 ring-tertiary bg-white dark:shadow-primary'>
+    // container
+    <section className='flex justify-center mb-40 '>
+      {/* card */}
+      <div className='w-full max-w-3xl flex justify-center rounded-lg shadow-xl py-5 ring-1 ring-tertiary bg-white dark:shadow-primary'>
         <div className='flex flex-col md:flex-row w-5/6 md:5/6 md:space-x-8 space-y-4'>
+          {/* image */}
           <div className='w-full md:w-2/5 flex justify-center items-center'>
             <figure className='w-3/4 md:w-full rounded-full overflow-hidden'>
               <img src='./img/foto.png' alt='woman wearing a headwrap and an Africa-shaped earring while smiling' />
             </figure>
           </div>
+          {/* content */}
           <div className='w-full md:w-3/5 flex flex-col justify-center items-center'>
             <div className='flex flex-col justify-center space-y-4'>
               <Subtitle subtitle='About me' className='text-center md:text-left text-2xl font-bold text-primary' />
@@ -24,9 +28,11 @@ export const About = () => {
                   <span>github.com/davitpra</span>
                 </li>
               </ul>
-              <Button className='bg-primary text-white px-6 m-6'>
-                Know More
-              </Button>
+              <div className='flex justify-center'>
+                <Button className='w-40 bg-primary text-white px-6'>
+                  Know More
+                </Button>
+              </div>
             </div>
           </div>
         </div>

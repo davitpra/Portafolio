@@ -1,9 +1,13 @@
+import { Projects } from '@/sections/Projects'
 
 const About = () => {
   return (
-    <div className='text-center text-semibold mt-20 text-2xl'>
-      About
-    </div>
+    <>
+      <div className='text-center text-semibold mt-20 text-2xl'>
+        About
+      </div>
+      <Projects />
+    </>
   )
 }
 

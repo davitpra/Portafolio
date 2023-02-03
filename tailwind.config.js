@@ -12,7 +12,8 @@ module.exports = {
       primary: '#1d4ed8',
       secondary: '#374151',
       tertiary: '#a8a29e',
-      fourthy: '#e2e8f0'
+      fourthy: '#e2e8f0',
+      darkPrimary: '#111827'
     },
     extend: {
       animation: {
