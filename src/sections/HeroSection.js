@@ -5,14 +5,14 @@ import { SecondaryButton } from '@/components/SecondaryButton'
 export const Hero = () => {
   return (
     <>
-      <Border>
-        <div className='w-5/6 my-6'>
+      <Border className='rounded-r-[3rem] rounded-t-[3rem]'>
+        <div className='max-w-2xl my-3'>
           <article
             className='h-auto'
           >
-            <p className='text-4xl font-bold'>Hi! I am </p>
-            <h1 className='text-7xl font-bold dark:text-primary my-3'>David Prado</h1>
-            <h3 className='text-4xl my-3 '> I am Frontend Developer</h3>
+            <p className='text-3xl md:text-4xl md:font-bold text-white '>Hi! I am </p>
+            <h1 className='my-3 text-5xl md:text-7xl font-bold text-black dark:text-white'>David Prado</h1>
+            <h3 className='my-3 text-3xl md:text-4xl md:font-bold text-white'> I am Frontend Developer</h3>
           </article>
           <div className='w-full flex flex-wrap justify-center items-center mt-6'>
             <PrimaryButton>
@@ -20,6 +20,9 @@ export const Hero = () => {
             </PrimaryButton>
             <SecondaryButton>
               Curriculum
+            </SecondaryButton>
+            <SecondaryButton>
+              Github
             </SecondaryButton>
           </div>
         </div>

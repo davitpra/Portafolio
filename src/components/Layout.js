@@ -16,9 +16,9 @@ export const Layout = ({ children }) => {
         <title>David Prado Portafolio</title>
         <meta name='description' content='David Prado Portafolio in next and tailwind' />
       </Head>
-      <div className='min-h-screen flex flex-col'>
+      <div className='relative min-h-screen flex flex-col'>
         <Header />
-        <main className={`flex-grow ${montserrat.className}`}>
+        <main className={`flex-grow pt-6 ${montserrat.className}`}>
           {children}
         </main>
         <Footer />

@@ -2,7 +2,7 @@
 export const Subtitle = ({ subtitle, className }) => {
   return (
     <h3
-      className={`dark:text-white ${className}`}
+      className={` ${className}`}
     >
       {subtitle}
     </h3>
