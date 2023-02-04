@@ -13,6 +13,7 @@ module.exports = {
       secondary: '#374151',
       tertiary: '#a8a29e',
       fourthy: '#e2e8f0',
+      message: '#3b82f6',
       darkPrimary: '#111827'
     },
     extend: {
