@@ -21,7 +21,7 @@ export const About = () => {
             <article className='w-full md:w-3/5 flex flex-col justify-center items-center'>
               <div className='flex flex-col space-y-4'>
                 <Subtitle subtitle='About me' className='text-center md:text-left text-2xl font-bold text-primary' />
-                <p className='inline text-black  w-full text-base mb-4'>I'm a junior web dev always learning. I enjoy using tech to create practical projects. Currently training in Next.Js and seeking opportunities to apply my skills.</p>
+                <p className='inline text-black  w-full text-xl mb-4'>I'm a junior web dev always learning. I enjoy using tech to create practical projects. Currently training in Next.Js and seeking opportunities to apply my skills.</p>
                 <ul className='md:space-y-0 space-x-0 md:space-x-4 flex flex-col md:flex-row text-left justify-center items-center'>
                   <li className='text-sm text-black flex justify-center items-center space-x-1'><CiLocationOn size={15} />UIO -ECU </li>
                   <li className='text-sm text-black  flex justify-center items-center space-x-1'>

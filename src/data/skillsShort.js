@@ -8,10 +8,5 @@ export const skillShort = [
     name: 'React',
     level: 'Intermidian',
     svg: 'react-icon.svg'
-  },
-  {
-    name: 'Redux',
-    level: 'Basic',
-    svg: 'redux-icon.svg'
   }
 ]

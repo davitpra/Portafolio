@@ -25,25 +25,25 @@ export const DarkMode = () => {
     if (!mounted) return null
     return (
       <Button
-        className='bg-secondary'
+        className='bg-secondary justify-center items-center'
         onClick={() => {
           setTheme('light')
           setDarkMode('light')
         }}
       >
-        <BsFillSunFill size='20px' />
+        <BsFillSunFill size='25px' />
       </Button>
     )
   } else {
     return (
       <Button
-        className='bg-fourthy'
+        className='bg-fourthy justify-center items-center'
         onClick={() => {
           setTheme('dark')
           setDarkMode('dark')
         }}
       >
-        <BsMoonFill size='20px' />
+        <BsMoonFill size='25px' />
       </Button>
     )
   }
