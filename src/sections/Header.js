@@ -18,7 +18,7 @@ export const Header = () => {
           <Link
             href={nav.path}
             key={nav.label}
-            className='text-3xl font-semibold traslation_animated hover:text-primary hover:font-bold'
+            className='text-xl font-semibold traslation_animated hover:text-primary hover:font-bold'
           >
             {nav.label}
           </Link>

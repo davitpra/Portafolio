@@ -43,6 +43,9 @@ export default function Home () {
         Can you tell me about the recent projects you have worked on?
       </Message>
       <Message className='rounded-r-[3rem] rounded-t-[3rem] mt-12'>
+        Thank you, I'm glad you like it
+      </Message>
+      <Message className='rounded-r-[3rem] rounded-l-lg'>
         Recently, I have been involved in the development of an e-commerce platform. I utilized static site rendering techniques to enhance page speed, incorporating optimization best practices with React.js and Next.js.
       </Message>
       <Projects />
