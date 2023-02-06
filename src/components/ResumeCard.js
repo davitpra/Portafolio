@@ -10,12 +10,12 @@ const ResumeCard = ({ className, date, company, position, toDos }) => {
   return (
     <div className='flex '>
       {/* line + dote */}
-      <div class=' relative mr-10'>
-        <div class='h-full w-6 flex items-center justify-center'>
-          <div class='h-full w-1 bg-tertiary dark:bg-white pointer-events-none' />
+      <div className=' relative mr-10'>
+        <div className='h-full w-6 flex items-center justify-center'>
+          <div className='h-full w-1 bg-tertiary dark:bg-white pointer-events-none' />
         </div>
         <div
-          class='w-4 h-4 absolute top-1/2 -mt-3 ml-1 rounded-full bg-black ring-2 ring-primary shadow'
+          className='w-4 h-4 absolute top-1/2 -mt-3 ml-1 rounded-full bg-black ring-2 ring-primary shadow'
         />
       </div>
       {/* Messaje */}
