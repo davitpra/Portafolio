@@ -5,7 +5,6 @@ import ProfileBubble from '@/components/ProfileBubble'
 export const Header = () => {
   const navigation = [
     { label: 'Home', path: '/' },
-    { label: 'Resume', path: '/resume' },
     { label: 'Skills', path: '/skills' },
     { label: 'Projects', path: '/projects' }
   ]

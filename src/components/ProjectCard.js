@@ -1,5 +1,7 @@
 import React from 'react'
 
+const url = 'https://davitpra.github.io/The-Movie-DB/'
+
 export const ProjectCard = () => {
   return (
     <div className='p-4 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto flex-none shrink-0'>

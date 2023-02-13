@@ -3,7 +3,7 @@ import Link from 'next/link'
 const ProfileBubble = () => {
   return (
     <Link
-      className='absolute top-3 left-0 lg:-left-24  rounded-full ring-2 ring-tertiary hover:ring-primary'
+      className='absolute top-3 left-0 lg:-left-24  rounded-full ring-2 ring-tertiary hover:ring-primary traslation_animated'
       href='/profile'
     >
       <div className='relative flex items-center'>

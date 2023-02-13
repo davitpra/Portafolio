@@ -1,6 +1,7 @@
 import { ProfileAbout } from '@/components/ProfileAbout'
 import ProfileHero from '@/components/ProfileHero'
 import ProfileSection from '@/components/ProfileSection'
+import ProfileWorkExperience from '@/components/ProfileWorkExperience'
 import React from 'react'
 
 const profile = () => {
@@ -8,6 +9,7 @@ const profile = () => {
     <>
       <ProfileHero />
       <ProfileAbout />
+      <ProfileWorkExperience />
       <ProfileSection />
     </>
 

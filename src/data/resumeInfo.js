@@ -15,7 +15,7 @@ export const resumeInfo = [
   },
   {
     date: {
-      start: 'December 2022',
+      start: 'December 2020',
       end: 'February 2022'
     },
     company: 'MODERNO EC',

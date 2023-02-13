@@ -6,8 +6,8 @@ import { skills } from '@/data/skillsList'
 
 export default function skill () {
   return (
-    <div className='w-5/6 '>
-      <Title title='Skills' />
+    <>
+      <Title title='Skills' className='text-primary' />
       <Subtitle subtitle='This is my list of technologies that I handle: ' className='py-3' />
       <SkillList className='flex-wrap'>
         {skills.map(skill =>
@@ -17,6 +17,6 @@ export default function skill () {
             className=''
           />)}
       </SkillList>
-    </div>
+    </>
   )
 }
