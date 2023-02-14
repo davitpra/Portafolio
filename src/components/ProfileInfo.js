@@ -11,7 +11,7 @@ export const ProfileInfo = () => {
     { question: 'LinkedIn:', answer: 'davitprado' }
   ]
   return (
-    <div className='flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary'>
+    <div className='flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
       <h4 className='text-xl text-primary font-bold'>Personal Info</h4>
       <ul className='mt-2 text-secondary dark:text-white'>
         {info.map(data =>

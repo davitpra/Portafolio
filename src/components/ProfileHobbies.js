@@ -28,7 +28,7 @@ export const ProfileHobbies = () => {
     { Icon: MdDraw, label: 'Design' }
   ]
   return (
-    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary'>
+    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
       <h4 className='text-xl text-primary font-bold'>Hobbies</h4>
       <div className='flex justify-between'>
         {hobbies.map(hobbie =>

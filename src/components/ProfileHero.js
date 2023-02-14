@@ -3,7 +3,7 @@ import { SecondaryButton } from './SecondaryButton'
 
 const ProfileHero = () => {
   return (
-    <section className='rounded-lg shadow-xl pb-8 ring-2 ring-tertiary'>
+    <section className='rounded-lg shadow-xl pb-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
       {/* background profile */}
       <div className='w-full h-[250px] '>
         <img src='https://images.pexels.com/photos/32997/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='w-full h-full rounded-tl-lg rounded-tr-lg' />

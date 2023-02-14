@@ -7,7 +7,7 @@ export const ProfileEducation = () => {
     { start: 'September 2011', end: 'May 2018', title: 'Civil Engineer', school: 'Nacional Politecnical School' }
   ]
   return (
-    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary'>
+    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
       <h4 className='text-xl text-primary font-bold'>Education</h4>
       <div className='relative px-4'>
         <div className='absolute h-full border border-dashed border-opacity-20 border-secondary dark:border-white' />
