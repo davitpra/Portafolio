@@ -3,11 +3,11 @@ export default function Document () {
   return (
     <Html lang='en'>
       <Head />
-      <body id='particles-js'>
+      <body>
         <Main />
         <NextScript />
       </body>
-      <script src='particles.js' />
+      <script />
     </Html>
   )
 }

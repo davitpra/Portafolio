@@ -39,7 +39,7 @@ export const ProjectCard = () => {
               onClick={toggleshow}
             >
             show more
-            </button>
+          </button>
           : <div className=''>
             <p className='text-sm text-tertiary'>
               It uses Local Storage to save your information and React Context to communicate between components. Additionally, it utilizes React Portals to teleport components for a seamless user experience
@@ -50,7 +50,7 @@ export const ProjectCard = () => {
             >
               show less
             </button>
-            </div>}
+          </div>}
         <div className='flex justify-center m-2 mx-3'>
           <Button className='w-full bg-primary'>Demo</Button>
           <Button className='w-full'><AiFillGithub /></Button>
