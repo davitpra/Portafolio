@@ -23,11 +23,11 @@ export function Slider () {
     setCurrentIndex(slideIndex)
   }
   return (
-    <div className='relative w-full md:w-2/3 flex flex-col items-center'>
+    <div className='relative w-full flex flex-col items-center'>
 
       <div
         style={{ backgroundImage: `url(${projectsInfo[currentIndex].url})` }}
-        className='w-[350px] h-[700px] rounded-2xl bg-center bg-cover duration-500'
+        className='w-[350px] h-[650px] bg-center bg-cover duration-500 ring-2 ring-tertiary shadow-lg rounded-lg p-5'
       />
 
       {/* Left Arrow */}

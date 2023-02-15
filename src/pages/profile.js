@@ -14,10 +14,10 @@ const profile = () => {
     <>
       <ProfileHero />
       <ProfileAbout />
-      <div className='w-full flex flex-col my-4 space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
+      <ProfileSection>
         <Slider />
         <ProjectCard />
-      </div>
+      </ProfileSection>
       <ProfileWorkExperience />
       <ProfileSection>
         <ProfileInfo />
