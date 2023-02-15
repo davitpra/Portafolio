@@ -1,5 +1,4 @@
 import { Button } from './Button'
-import ProfileDot from './ProfileDot'
 import { AiFillGithub } from 'react-icons/ai'
 
 export const ProjectCard = () => {
