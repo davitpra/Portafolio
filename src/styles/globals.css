@@ -12,11 +12,8 @@
     .traslation_animated {
         @apply transform transition-all hover:-translate-y-1;
     }
-    .heroBorder {
-        @apply rounded-lg shadow-xl ring-2 ring-tertiary;
-    }
     .border {
-        @apply rounded-lg shadow-xl pb-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary;
+        @apply rounded-lg shadow-xl ring-1 ring-secondary my-4;
     }
     .title {
         @apply text-4xl font-semibold dark:text-primary;

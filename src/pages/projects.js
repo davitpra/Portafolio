@@ -1,5 +1,5 @@
 import { Subtitle } from '@/components/Subtitles'
-import { Slider } from '@/components/Slider'
+import { Slider } from '@/components/Project/Slider'
 
 const projects = () => {
   return (

@@ -1,6 +1,6 @@
 import { Border } from '@/components/Chat/Border'
 import { LargeSecondaryButton } from '@/components/LargeSecondaryButton'
-import { ProjectCard } from '@/components/ProjectCard'
+import { ProjectCard } from '@/components/Project/ProjectCard'
 import { Title } from '@/components/Title'
 import React from 'react'
 

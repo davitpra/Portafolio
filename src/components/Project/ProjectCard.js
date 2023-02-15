@@ -1,9 +1,10 @@
-import { Button } from './Button'
+import Border from '../Border'
+import { Button } from '../Button'
 import { AiFillGithub } from 'react-icons/ai'
 
 export const ProjectCard = () => {
   return (
-    <div className='h-full w-full bg-white dark:bg-darkPrimary ring-2 ring-tertiary  shadow-lg rounded-lg p-5 flex flex-col justify-center items-start'>
+    <Border>
       <h4 className='text-4xl mb-4 text-primary font-bold'>Project</h4>
       <div className='font-bold text-lg my-1'>
         To-Do-List-React
@@ -18,6 +19,7 @@ export const ProjectCard = () => {
         <Button className='w-full bg-primary'>Demo</Button>
         <Button className='w-full'><AiFillGithub /></Button>
       </div>
-    </div>
+    </Border>
+
   )
 }

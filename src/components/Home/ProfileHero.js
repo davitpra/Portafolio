@@ -1,15 +1,11 @@
+import Border from '../Border'
 import { PrimaryButton } from '../PrimaryButton'
 import { SecondaryButton } from '../SecondaryButton'
 
 const ProfileHero = () => {
   return (
-    <section className='relative heroBorder h-auto'>
-      {/* background profile */}
-      <div className='w-full h-[100px]' />
-      <div className='absolute bottom-0 w-full h-[50%] bg-white dark:bg-darkPrimary -z-20' />
-      {/* Profile */}
-      <div className='w-full pb-4'>
-        {/* profile */}
+    <>
+      <Border className='h-[60%] bottom-0'>
         <div className='flex flex-col items-center '>
           {/* imagen */}
           <img src='./img/foto.png' className='w-40 border-4 z-10 border-tertiary rounded-full' />
@@ -35,8 +31,8 @@ const ProfileHero = () => {
             WhatsApp
           </SecondaryButton>
         </div>
-      </div>
-    </section>
+      </Border>
+    </>
 
   )
 }

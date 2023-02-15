@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
 import { projectsInfo } from '@/data/projectsInfo'
-import Image from 'next/image'
 
 export function Slider () {
   const [currentIndex, setCurrentIndex] = useState(0)

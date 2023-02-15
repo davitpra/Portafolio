@@ -5,8 +5,8 @@ import { ProfileHobbies } from '@/components/Home/ProfileHobbies'
 import { ProfileInfo } from '@/components/Home/ProfileInfo'
 import ProfileSection from '@/components/Home/ProfileSection'
 import ProfileWorkExperience from '@/components/Home/ProfileWorkExperience'
-import { ProjectCard } from '@/components/ProjectCard'
-import { Slider } from '@/components/Slider'
+import { ProjectCard } from '@/components/Project/ProjectCard'
+import { Slider } from '@/components/Project/Slider'
 import React from 'react'
 
 const profile = () => {
