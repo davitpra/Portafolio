@@ -1,12 +1,14 @@
-import { Subtitle } from '@/components/Subtitles'
+import { ProfileSection } from '@/components/Home/ProfileSection'
+import { ProjectCard } from '@/components/Project/ProjectCard'
 import { Slider } from '@/components/Project/Slider'
 
 const projects = () => {
   return (
     <>
-      <h1 className='title'>Projects </h1>
-      <Subtitle subtitle='This is my list of technologies that I handle: ' className='py-3' />
-      <Slider />
+      <ProfileSection>
+        <Slider />
+        <ProjectCard />
+      </ProfileSection>
     </>
   )
 }

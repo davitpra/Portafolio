@@ -5,8 +5,9 @@ import ProfileBubble from './ProfileBubble'
 export const Header = () => {
   const navigation = [
     { label: 'Home', path: '/' },
-    { label: 'Skills', path: '/skills' },
-    { label: 'Projects', path: '/projects' }
+    { label: 'Projects', path: '/projects' },
+    { label: 'Work Experience', path: '/work' },
+    { label: 'Information', path: '/info' }
   ]
 
   return (

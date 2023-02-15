@@ -2,7 +2,7 @@ import Border from '../Border'
 import { PrimaryButton } from '../PrimaryButton'
 import { SecondaryButton } from '../SecondaryButton'
 
-const ProfileHero = () => {
+export const ProfileHero = () => {
   return (
     <>
       <Border className='h-[60%] bottom-0'>
@@ -36,5 +36,3 @@ const ProfileHero = () => {
 
   )
 }
-
-export default ProfileHero
