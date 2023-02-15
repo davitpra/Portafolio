@@ -1,4 +1,4 @@
-import { Border } from '@/components/Border'
+import { Border } from '@/components/Chat/Border'
 
 export const Message = ({ children, message, className }) => {
   return (

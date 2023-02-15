@@ -1,4 +1,4 @@
-import { Border } from '@/components/Border'
+import { Border } from '@/components/Chat/Border'
 import { PrimaryButton } from '@/components/PrimaryButton'
 import { SecondaryButton } from '@/components/SecondaryButton'
 

@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react'
 import { BsFillSunFill, BsMoonFill } from 'react-icons/bs'
-import { Button } from './Button'
+import { Button } from '../Button'
 
 export const DarkMode = () => {
   // estado para sabe si el button ya fue renderizado

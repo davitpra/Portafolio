@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import { Footer } from '@/sections/Footer'
-import { Header } from '@/sections/Header'
+import { Footer } from './Footer'
+import { Header } from './Header'
 import { Montserrat } from '@next/font/google'
 const montserrat = Montserrat(
   {
@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
     <>
       <Head>
         <title>David Prado Portafolio</title>
-        <meta name='description' content='David Prado Portafolio in next and tailwind' />
+        <meta name='description' content='David Prado Portafolio' />
       </Head>
       <div className='relative min-h-screen flex flex-col'>
         <Header />

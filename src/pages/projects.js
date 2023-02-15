@@ -1,4 +1,4 @@
-import { Subtitle } from '@/components/Subtitle'
+import { Subtitle } from '@/components/Subtitles'
 import { Slider } from '@/components/Slider'
 import { Title } from '@/components/Title'
 

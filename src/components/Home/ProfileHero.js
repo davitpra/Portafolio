@@ -1,12 +1,15 @@
-import { PrimaryButton } from './PrimaryButton'
-import { SecondaryButton } from './SecondaryButton'
+import { PrimaryButton } from '../PrimaryButton'
+import { SecondaryButton } from '../SecondaryButton'
 
 const ProfileHero = () => {
   return (
-    <section className='rounded-lg shadow-xl pb-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
+    <section className='border'>
       {/* background profile */}
-      <div className='w-full h-[250px] '>
-        <img src='https://images.pexels.com/photos/32997/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='w-full h-full rounded-tl-lg rounded-tr-lg' />
+      <div className='w-full h-[200px] '>
+        <img
+          src='https://images.pexels.com/photos/32997/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          className='w-full h-full rounded-tl-lg rounded-tr-lg'
+        />
       </div>
       {/* profile */}
       <div className='flex flex-col items-center -mt-20'>
@@ -14,7 +17,7 @@ const ProfileHero = () => {
         <img src='./img/foto.png' className='w-40 border-4 border-tertiary rounded-full' />
         {/* nombre y check */}
         <div className='flex items-center space-x-2 mt-2'>
-          <p className='text-4xl font-semibold dark:text-primary'>David Prado</p>
+          <h1 className='title'>David Prado</h1>
           <span className='bg-primary rounded-full p-1 my-3' title='Verified'>
             <svg xmlns='http://www.w3.org/2000/svg' className='text-gray-100 h-2.5 w-2.5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth='4' d='M5 13l4 4L19 7' /></svg>
           </span>
@@ -35,6 +38,7 @@ const ProfileHero = () => {
         </SecondaryButton>
       </div>
     </section>
+
   )
 }
 

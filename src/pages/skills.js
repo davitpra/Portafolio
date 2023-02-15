@@ -1,6 +1,6 @@
 import { SkillCard } from '@/components/SkillCard'
-import { SkillList } from '@/components/SkillList'
-import { Subtitle } from '@/components/Subtitle'
+import { SkillList } from '@/components/Skills/SkillList'
+import { Subtitle } from '@/components/Subtitles'
 import { Title } from '@/components/Title'
 import { skills } from '@/data/skillsList'
 

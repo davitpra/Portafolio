@@ -4,12 +4,18 @@
 
 @layer base {
     body {
-        @apply max-w-3xl mx-auto px-4 
+        @apply max-w-3xl mx-auto px-4;
     }
 }
 
 @layer components{
     .traslation_animated {
         @apply transform transition-all hover:-translate-y-1;
+    }
+    .border {
+        @apply rounded-lg shadow-xl pb-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary;
+    }
+    .title {
+        @apply text-4xl font-semibold dark:text-primary;
     }
 }

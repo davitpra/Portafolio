@@ -1,5 +1,5 @@
-import { Subtitle } from '@/components/Subtitle'
-import { Border } from '@/components/Border'
+import { Subtitle } from '@/components/Subtitles'
+import { Border } from '@/components/Chat/Border'
 import { PrimaryButton } from '@/components/PrimaryButton'
 import { HiLocationMarker } from 'react-icons/hi'
 import { AiFillGithub } from 'react-icons/ai'

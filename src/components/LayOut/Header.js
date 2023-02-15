@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { DarkMode } from '@/components/DarkMode'
-import ProfileBubble from '@/components/ProfileBubble'
+import { DarkMode } from './DarkMode'
+import ProfileBubble from './ProfileBubble'
 
 export const Header = () => {
   const navigation = [

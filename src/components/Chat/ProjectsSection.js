@@ -1,4 +1,4 @@
-import { Border } from '@/components/Border'
+import { Border } from '@/components/Chat/Border'
 import { LargeSecondaryButton } from '@/components/LargeSecondaryButton'
 import { ProjectCard } from '@/components/ProjectCard'
 import { Title } from '@/components/Title'

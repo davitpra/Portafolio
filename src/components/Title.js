@@ -1,10 +1,10 @@
 
-export const Title = ({ title, className }) => {
+export const Title = ({ children, className }) => {
   return (
-    <h2
-      className={`text-4xl font-bold text-black dark:text-white ${className}`}
+    <h1
+      className={`text-4xl font-semibold dark:text-primary ${className}`}
     >
-      {title}
-    </h2>
+      {children}
+    </h1>
   )
 }

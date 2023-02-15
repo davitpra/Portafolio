@@ -1,7 +1,7 @@
-import { Layout } from '@/components/Layout'
+import { Layout } from '@/components/LayOut/Layout'
 import { ThemeProvider } from 'next-themes'
 import '@/styles/globals.css'
-import { Particle } from '@/components/Particle'
+import { Particle } from '@/components/LayOut/Particle'
 
 export default function App ({ Component, pageProps }) {
   return (
