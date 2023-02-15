@@ -10,7 +10,7 @@ const ResumeCard = ({ className, date, company, position, toDos }) => {
   const changeColorTitle = show ? 'text-primary font-bold' : ''
 
   return (
-    <div className='flex items-center w-full my-4 -ml-1.5'>
+    <div className='flex items-center w-full my-4 -ml-1.5 cursor-pointer'>
       <div className='w-1/12 z-10'>
         <ProfileDot />
       </div>
