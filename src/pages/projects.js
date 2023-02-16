@@ -3,6 +3,8 @@ import { ProjectCard } from '@/components/Project/ProjectCard'
 import { Slider } from '@/components/Project/Slider'
 import { projectsInfo } from '@/data/projectsInfo'
 import ProjectImage from '@/components/Project/ProjectImage'
+import { SkillCard } from '@/components/SkillCard'
+import { skillsInfo } from '@/data/skillsInfo'
 
 const projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -25,13 +27,15 @@ const projects = () => {
   console.log(projectsInfo[currentIndex].url)
   return (
     <>
-
-      <div className='w-full flex flex-col md:flex-row '>
+      <div className='w-full flex flex-col md:flex-row my-4'>
         <Slider prevSlide={prevSlide} nextSlide={nextSlide} goToSlide={goToSlide}>
           <ProjectImage projectInfo={projectsInfo[currentIndex]} />
         </Slider>
         <div className='w-full h-full flex flex-col'>
           <ProjectCard {...projectsInfo[currentIndex]} />
+          <div className='h-1/3 mt-4'>
+            <SkillCard {...skillsInfo[0]} />
+          </div>
         </div>
       </div>
 

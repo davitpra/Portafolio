@@ -4,7 +4,7 @@ import { SecondaryButton } from '../SecondaryButton'
 
 export const ProjectCard = ({ name, description, features }) => {
   return (
-    <Border className=''>
+    <Border className='h-2/3'>
       <h1 className=' title mb-4'>
         Project
       </h1>

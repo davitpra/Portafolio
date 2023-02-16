@@ -5,7 +5,7 @@ import { SecondaryButton } from '../SecondaryButton'
 export const ProfileHero = () => {
   return (
     <>
-      <Border height='h-[60%] bottom-0'>
+      <Border height='h-[60%] bottom-0' className='my-4'>
         <div className='flex flex-col items-center '>
           {/* imagen */}
           <img src='./img/foto.png' className='w-40 border-4 z-10 border-tertiary rounded-full' />

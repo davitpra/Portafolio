@@ -13,7 +13,7 @@
         @apply transform transition-all hover:-translate-y-1;
     }
     .border {
-        @apply rounded-lg shadow-xl ring-1 ring-secondary my-4;
+        @apply rounded-lg shadow-xl ring-1 ring-secondary mx-2 md:mx-0;
     }
     .title {
         @apply text-4xl font-semibold text-primary;
