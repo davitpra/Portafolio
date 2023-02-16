@@ -6,11 +6,11 @@ export function Slider ({ children, prevSlide, nextSlide, goToSlide, className }
   return (
     <div className={`relative w-full flex flex-col items-center ${className}`}>
       {/* Left Arrow */}
-      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer z-10'>
+      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-secondary text-white cursor-pointer z-10'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
       {/* Right Arrow */}
-      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer z-10'>
+      <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-secondary text-white cursor-pointer z-10'>
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
       {children}
