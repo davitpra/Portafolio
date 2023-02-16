@@ -1,23 +1,29 @@
 import Border from '../Border'
-import { Button } from '../Button'
-import { AiFillGithub } from 'react-icons/ai'
+import { PrimaryButton } from '../PrimaryButton'
+import { SecondaryButton } from '../SecondaryButton'
 
 export const ProjectCard = () => {
   return (
-    <Border>
-      <h4 className='text-4xl mb-4 text-primary font-bold'>Project</h4>
+    <Border className='md:mx-4'>
+      <h4 className=' title mb-4'>Project</h4>
       <div className='font-bold text-lg my-1'>
         To-Do-List-React
       </div>
-      <p className=' w-auto text-tertiary mb-2'>
+      <p className=' w-auto mb-2'>
         A task management application built in React that allows you to create and manage your task lists with ease.
       </p>
-      <p className='text-tertiary'>
+      <p className=''>
         It uses Local Storage to save your information and React Context to communicate between components. Additionally, it utilizes React Portals to teleport components for a seamless user experience
       </p>
-      <div className='flex justify-center m-2 mx-3'>
-        <Button className='w-full bg-primary'>Demo</Button>
-        <Button className='w-full'><AiFillGithub /></Button>
+      <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
+        {/* Botton de Correo */}
+        <PrimaryButton>
+          Demo
+        </PrimaryButton>
+        {/* Botton de Message */}
+        <SecondaryButton>
+          GitHub
+        </SecondaryButton>
       </div>
     </Border>
 

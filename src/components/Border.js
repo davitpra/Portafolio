@@ -1,12 +1,11 @@
 
-function Border ({ children, className = 'h-full' }) {
+function Border ({ children, height = 'h-full', className = 'h-full' }) {
   return (
-    <section className='border relative h-auto'>
-      <div className={`absolute w-full bg-fourthy dark:bg-darkPrimary -z-20 ${className}`} />
+    <section className={`border h-auto relative ${className}`}>
+      <div className={`absolute w-full bg-fourthy dark:bg-darkPrimary -z-20 ${height}`} />
       <div className='p-8'>
         {children}
       </div>
-
     </section>
   )
 }

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Footer } from './Footer'
 import { Header } from './Header'
 import { Montserrat } from '@next/font/google'
 const montserrat = Montserrat(
@@ -20,7 +19,6 @@ export const Layout = ({ children }) => {
         <main className={`flex-grow h-screen ${montserrat.className}`}>
           {children}
         </main>
-        <Footer />
       </div>
     </>
   )

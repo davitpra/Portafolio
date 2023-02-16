@@ -1,4 +1,4 @@
-import ProfileDot from './ProfileDot'
+import ProfileDot from '../Home/ProfileDot'
 
 export const ProfileEducation = () => {
   const educationInfo = [

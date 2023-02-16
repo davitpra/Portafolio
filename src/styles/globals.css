@@ -16,6 +16,6 @@
         @apply rounded-lg shadow-xl ring-1 ring-secondary my-4;
     }
     .title {
-        @apply text-4xl font-semibold dark:text-primary;
+        @apply text-4xl font-semibold text-primary;
     }
 }

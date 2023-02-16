@@ -6,7 +6,7 @@ export const Header = () => {
   const navigation = [
     { label: 'Home', path: '/' },
     { label: 'Projects', path: '/projects' },
-    { label: 'Work Experience', path: '/work' },
+    { label: 'Experience', path: '/experience' },
     { label: 'Information', path: '/info' }
   ]
 

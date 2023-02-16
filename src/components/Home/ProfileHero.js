@@ -5,7 +5,7 @@ import { SecondaryButton } from '../SecondaryButton'
 export const ProfileHero = () => {
   return (
     <>
-      <Border className='h-[60%] bottom-0'>
+      <Border height='h-[60%] bottom-0'>
         <div className='flex flex-col items-center '>
           {/* imagen */}
           <img src='./img/foto.png' className='w-40 border-4 z-10 border-tertiary rounded-full' />
@@ -21,13 +21,13 @@ export const ProfileHero = () => {
           <p className='text-xl'>Quito, Ecuador</p>
         </div>
         {/* Bottones */}
-        <div className='flex flex-col md:flex-row items-center justify-center mt-4 px-8'>
+        <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
           {/* Botton de Correo */}
-          <PrimaryButton>
+          <PrimaryButton className='md:w-44'>
             Correo
           </PrimaryButton>
           {/* Botton de Message */}
-          <SecondaryButton>
+          <SecondaryButton className='md:w-44'>
             WhatsApp
           </SecondaryButton>
         </div>
