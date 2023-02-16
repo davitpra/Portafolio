@@ -31,10 +31,12 @@ const projects = () => {
         <Slider prevSlide={prevSlide} nextSlide={nextSlide} goToSlide={goToSlide}>
           <ProjectImage projectInfo={projectsInfo[currentIndex]} />
         </Slider>
-        <div className='w-full h-full flex flex-col'>
+        <div className='w-full h-full flex flex-col '>
           <ProjectCard {...projectsInfo[currentIndex]} />
-          <div className='h-1/3 mt-4'>
-            <SkillCard {...skillsInfo[0]} />
+          <div className='h-auto w-full mt-4 flex items-center overflow-x-auto md:scrollbar-default md:space-x-4'>
+            {projectsInfo[currentIndex].skills.map((skill, index) =>
+              <SkillCard {...skill} key={index} />
+            )}
           </div>
         </div>
       </div>

@@ -7,6 +7,38 @@ export const projectsInfo = [
       'SSG with Next',
       'ultra fast',
       'React with Typescript'
+    ],
+    skills: [
+      {
+        name: 'Next js',
+        level: 'Intermidian',
+        svg: 'nextjs-icon.svg'
+      },
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'TypeScript',
+        level: 'Intermidian',
+        svg: 'typescript-icon.svg'
+      },
+      {
+        name: 'Tailwind',
+        level: 'Basic',
+        svg: 'tailwind-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -17,6 +49,33 @@ export const projectsInfo = [
       'Styled with styled components',
       'Router with react-router',
       'SEO friendly'
+    ],
+    skills: [
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'WebPack',
+        level: 'Basic',
+        svg: 'webpack-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -27,6 +86,33 @@ export const projectsInfo = [
       'real and updated search',
       'ultra fast loading',
       'implement infinite scroll'
+    ],
+    skills: [
+      {
+        name: 'JavaScript',
+        level: 'Intermidian',
+        svg: 'javascript-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'HTML',
+        level: 'Intermidian',
+        svg: 'html-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -37,6 +123,33 @@ export const projectsInfo = [
       'Workflow with state machines',
       'use Xstate with React',
       'Implement events and transitions'
+    ],
+    skills: [
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'WebPack',
+        level: 'Basic',
+        svg: 'webpack-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -47,6 +160,33 @@ export const projectsInfo = [
       'Mockup with Material UI',
       'React app',
       'GitHub data query '
+    ],
+    skills: [
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'WebPack',
+        level: 'Basic',
+        svg: 'webpack-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -57,6 +197,38 @@ export const projectsInfo = [
       'Redux with React.js',
       'Implement Middlewares',
       'Use Redux Toolkit'
+    ],
+    skills: [
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'Redux',
+        level: 'Basic',
+        svg: 'redux-icon.svg'
+      },
+      {
+        name: 'Vite',
+        level: 'Basic',
+        svg: 'vitejs-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -67,6 +239,43 @@ export const projectsInfo = [
       'Use Local Storage',
       'Comunication with React context',
       'Teleport with React Portal'
+    ],
+    skills: [
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'WebPack',
+        level: 'Basic',
+        svg: 'webpack-icon.svg'
+      },
+      {
+        name: 'JavaScript',
+        level: 'Intermidian',
+        svg: 'javascript-icon.svg'
+      },
+      {
+        name: 'Css',
+        level: 'Intermidian',
+        svg: 'css-icon.svg'
+      },
+      {
+        name: 'HTML',
+        level: 'Intermidian',
+        svg: 'html-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   },
   {
@@ -77,6 +286,33 @@ export const projectsInfo = [
       'Use Next.js',
       'Responsive desidn with Tailwind',
       'Dark mode design'
+    ],
+    skills: [
+      {
+        name: 'Next js',
+        level: 'Intermidian',
+        svg: 'nextjs-icon.svg'
+      },
+      {
+        name: 'React',
+        level: 'Intermidian',
+        svg: 'react-icon.svg'
+      },
+      {
+        name: 'Tailwind',
+        level: 'Basic',
+        svg: 'tailwind-icon.svg'
+      },
+      {
+        name: 'Git',
+        level: 'Intermidian',
+        svg: 'git-icon.svg'
+      },
+      {
+        name: 'Git-Hub',
+        level: 'Intermidian',
+        svg: 'github-icon.svg'
+      }
     ]
   }
 ]
