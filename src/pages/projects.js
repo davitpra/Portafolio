@@ -31,7 +31,7 @@ const projects = () => {
           <ProjectImage projectInfo={projectsInfo[currentIndex]} />
         </Slider>
         <div className='w-full h-full flex flex-col'>
-          <ProjectCard />
+          <ProjectCard {...projectsInfo[currentIndex]} />
         </div>
       </div>
 
