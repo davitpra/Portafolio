@@ -1,4 +1,4 @@
-import { ProfileSection } from '@/components/Home/ProfileSection'
+import { ProfileSection } from '@/components/Info/ProfileSection'
 import { ProjectCard } from '@/components/Project/ProjectCard'
 import { Slider } from '@/components/Project/Slider'
 

@@ -1,4 +1,4 @@
-import { ProfileWorkExperience } from '@/components/Home/ProfileWorkExperience'
+import { ProfileWorkExperience } from '@/components/WorkExperience/ProfileWorkExperience'
 
 function work () {
   return (

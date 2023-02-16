@@ -1,6 +1,6 @@
 import { ProfileHobbies } from '@/components/Home/ProfileHobbies'
 import { ProfileInfo } from '@/components/Home/ProfileInfo'
-import { ProfileSection } from '@/components/Home/ProfileSection'
+import { ProfileSection } from '@/components/Info/ProfileSection'
 import { ProfileEducation } from '@/components/Home/ProfileEducation'
 
 function info () {

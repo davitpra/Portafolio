@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
       </Head>
       <div className='relative min-h-screen flex flex-col'>
         <Header />
-        <main className={`flex-grow pt-6 ${montserrat.className}`}>
+        <main className={`flex-grow h-screen ${montserrat.className}`}>
           {children}
         </main>
         <Footer />
