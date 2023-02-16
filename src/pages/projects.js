@@ -27,13 +27,13 @@ const projects = () => {
   console.log(projectsInfo[currentIndex].url)
   return (
     <>
-      <div className='w-full flex flex-col md:flex-row my-4'>
+      <div className='w-full flex flex-col md:flex-row my-4 md:space-x-4'>
         <Slider prevSlide={prevSlide} nextSlide={nextSlide} goToSlide={goToSlide}>
           <ProjectImage projectInfo={projectsInfo[currentIndex]} />
         </Slider>
         <div className='w-full h-full flex flex-col '>
           <ProjectCard {...projectsInfo[currentIndex]} />
-          <div className='h-auto w-full mt-4 flex items-center overflow-x-auto md:scrollbar-default md:space-x-4'>
+          <div className='w-full md:w-[400px] px-1 py-4 flex items-center overflow-x-auto md:space-x-4'>
             {projectsInfo[currentIndex].skills.map((skill, index) =>
               <SkillCard {...skill} key={index} />
             )}

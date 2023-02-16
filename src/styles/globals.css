@@ -6,6 +6,14 @@
     body {
         @apply max-w-3xl mx-auto;
     }
+    *::-webkit-scrollbar{
+        @apply h-2 w-0               /* width of the entire scrollbar */
+      }
+    
+    *::-webkit-scrollbar-thumb {
+        @apply bg-primary dark:bg-secondary rounded-full     /* roundness of the scroll thumb */ /* creates padding around scroll thumb */
+      }
+    
 }
 
 @layer components{
@@ -19,3 +27,5 @@
         @apply text-4xl font-semibold text-primary;
     }
 }
+ 
+
