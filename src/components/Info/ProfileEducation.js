@@ -11,7 +11,7 @@ export const ProfileEducation = () => {
     <Border>
       <h4 className='text-xl text-primary font-bold'>Education</h4>
       <div className='relative'>
-        <div className='absolute -left-2 md:left-0 h-full border border-dashed border-opacity-40 border-secondary dark:border-white' />
+        <div className='absolute -left-2 md:left-0 h-full border border-dashed border-opacity-40 bg-white ring-0 dark:bg-secondary border-secondary dark:border-white' />
 
         {educationInfo.map(edu =>
           <div className='flex items-center w-full my-6 -ml-1.5' key={edu.title}>

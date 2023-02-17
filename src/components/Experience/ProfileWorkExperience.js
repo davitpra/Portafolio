@@ -1,16 +1,18 @@
-import ResumeCard from '@/components/ResumeCard'
+import ResumeCard from '@/components/Experience/ResumeCard'
 import { resumeInfo } from '@/data/resumeInfo'
+import Border from '../Border'
 
 export function ProfileWorkExperience () {
   return (
-    <div className='flex-1 rounded-lg shadow-xl p-8 my-4 ring-2 ring-tertiary  bg-white dark:bg-darkPrimary'>
-      <h4 className='text-xl text-primary font-bold'>Work Experience</h4>
+    <Border className='mt-4'>
+      <h4 className='title'>Work Experience</h4>
       <div className='relative'>
-        <div className='absolute h-full border border-dashed border-opacity-20 border-secondary dark:border-white' />
+        <div className='absolute -left-2 md:left-0 h-full border border-dashed border-opacity-40 bg-white ring-0 dark:bg-secondary border-secondary dark:border-white' />
         {resumeInfo.map(data =>
-          <ResumeCard {...data} key={data.position} />
+          <ResumeCard {...data} key={data.position} className='bg-white dark:bg-darkPrimary' />
         )}
       </div>
-    </div>
+    </Border>
+
   )
 }

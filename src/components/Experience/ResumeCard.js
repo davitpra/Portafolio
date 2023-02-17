@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ProfileDot from './Home/ProfileDot'
+import ProfileDot from '../Home/ProfileDot'
 
 const ResumeCard = ({ className, date, company, position, toDos }) => {
   const [show, setShow] = useState(false)
