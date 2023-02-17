@@ -1,3 +1,4 @@
+import Border from '../Border'
 import ProfileDot from '../Home/ProfileDot'
 
 export const ProfileEducation = () => {
@@ -7,10 +8,10 @@ export const ProfileEducation = () => {
     { start: 'September 2011', end: 'May 2018', title: 'Civil Engineer', school: 'Nacional Politecnical School' }
   ]
   return (
-    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
+    <Border>
       <h4 className='text-xl text-primary font-bold'>Education</h4>
-      <div className='relative px-4'>
-        <div className='absolute h-full border border-dashed border-opacity-20 border-secondary dark:border-white' />
+      <div className='relative'>
+        <div className='absolute -left-2 md:left-0 h-full border border-dashed border-opacity-40 border-secondary dark:border-white' />
 
         {educationInfo.map(edu =>
           <div className='flex items-center w-full my-6 -ml-1.5' key={edu.title}>
@@ -19,14 +20,14 @@ export const ProfileEducation = () => {
             </div>
 
             <div className='w-11/12'>
-              <p className='text-xs text-tertiary'>{edu.start} - {edu.end}</p>
-              <p className='text-sm'>{edu.title}</p>
-              <p className='text-xs text-tertiary'>{edu.school}</p>
+              <p className=' text-tertiary'>{edu.start} - {edu.end}</p>
+              <p className='text-lg font-semibold'>{edu.title}</p>
+              <p className=' text-tertiary'>{edu.school}</p>
             </div>
           </div>
         )}
 
       </div>
-    </div>
+    </Border>
   )
 }

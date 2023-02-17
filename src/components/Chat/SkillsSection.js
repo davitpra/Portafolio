@@ -1,6 +1,6 @@
 import { Border } from '@/components/Chat/Border'
 import { LargeSecondaryButton } from '@/components/LargeSecondaryButton'
-import { SkillCard } from '@/components/SkillCard'
+import { SkillCard } from '@/components/Project/SkillCard'
 import { SkillList } from '@/components/Skills/SkillList'
 import { Title } from '@/components/Title'
 import { skillShort } from '@/data/skillsShort'

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Border from './Border'
+import Border from '../Border'
 
 export const SkillCard = ({ name, level, svg, className }) => {
   return (

@@ -2,6 +2,7 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { GiMountainClimbing, GiMountains } from 'react-icons/gi'
 import { MdDraw } from 'react-icons/md'
+import Border from '../Border'
 
 export const ProfileHobbies = () => {
   // estado para sabe si el button ya fue renderizado
@@ -28,7 +29,7 @@ export const ProfileHobbies = () => {
     { Icon: MdDraw, label: 'Design' }
   ]
   return (
-    <div className='h-auto flex-1 rounded-lg shadow-xl p-8 ring-2 ring-tertiary bg-white dark:bg-darkPrimary'>
+    <Border>
       <h4 className='text-xl text-primary font-bold'>Hobbies</h4>
       <div className='flex justify-between'>
         {hobbies.map(hobbie =>
@@ -38,6 +39,6 @@ export const ProfileHobbies = () => {
           </div>
         )}
       </div>
-    </div>
+    </Border>
   )
 }

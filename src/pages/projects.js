@@ -3,8 +3,7 @@ import { ProjectCard } from '@/components/Project/ProjectCard'
 import { Slider } from '@/components/Project/Slider'
 import { projectsInfo } from '@/data/projectsInfo'
 import ProjectImage from '@/components/Project/ProjectImage'
-import { SkillCard } from '@/components/SkillCard'
-import { skillsInfo } from '@/data/skillsInfo'
+import { SkillCard } from '@/components/Project/SkillCard'
 
 const projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
