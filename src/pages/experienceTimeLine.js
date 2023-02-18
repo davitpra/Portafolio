@@ -13,41 +13,29 @@ function experienceTimeLine () {
   const schoolIconStyles = { background: '#f9c74f' }
   return (
     <Border className='mt-4'>
-      <h1 className='title'>WorK Experience</h1>
-      <VerticalTimeline>
+      <h1 className='title mb-4'>WorK Experience</h1>
+      <VerticalTimeline
+        layout='1-column-left'
+        lineColor='#374151'
+      >
         {timelineElements.map((element) => {
           const isWorkIcon = element.icon === 'work'
-          const showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== ''
 
           return (
             <VerticalTimelineElement
               key={element.key}
               date={element.date}
-              dateClassName='bg-#C9FBC7'
+              dateClassName='text-tertiary mt-4'
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
-              className='p-4 '
             >
-              <h3 className='text-lg text-center'>
+              <h3 className='text-lg text-black font-semibold '>
                 {element.title}
               </h3>
-              <h5 className='vertical-timeline-element-subtitle'>
+              <h5 className='text-black'>
                 {element.location}
               </h5>
-              <p className='my-4'>{element.description}</p>
-              {showButton && (
-                <a
-                  className={`py-2 rounded-[5px] text-white ${
-                    isWorkIcon ? 'workButton' : 'schoolButton'
-                  }`}
-                  href='/'
-                >
-                  {element.buttonText}
-                </a>
-              )}
+              <p className='my-4 mb-4 text-black'>{element.description}</p>
             </VerticalTimelineElement>
           )
         })}

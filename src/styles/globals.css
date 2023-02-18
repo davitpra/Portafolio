@@ -13,7 +13,9 @@
     *::-webkit-scrollbar-thumb {
         @apply bg-primary dark:bg-secondary rounded-full     /* roundness of the scroll thumb */ /* creates padding around scroll thumb */
       }
-    
+    .vertical-timeline-element-content {
+        @apply bg-red-600
+      }
 }
 
 @layer components{
