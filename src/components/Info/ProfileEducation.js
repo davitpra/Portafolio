@@ -1,5 +1,4 @@
 import Border from '../Border'
-import ProfileDot from '../Home/ProfileDot'
 
 export const ProfileEducation = () => {
   const educationInfo = [
@@ -16,7 +15,7 @@ export const ProfileEducation = () => {
         {educationInfo.map(edu =>
           <div className='flex items-center w-full my-6 -ml-1.5' key={edu.title}>
             <div className='w-1/12 z-10'>
-              <ProfileDot />
+              <div className='dot' />
             </div>
 
             <div className='w-11/12'>

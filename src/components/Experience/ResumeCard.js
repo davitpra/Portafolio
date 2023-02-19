@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import ProfileDot from '../Home/ProfileDot'
 
 const ResumeCard = ({ className, date, company, position, toDos }) => {
   const [show, setShow] = useState(false)
@@ -12,7 +11,7 @@ const ResumeCard = ({ className, date, company, position, toDos }) => {
   return (
     <div className='flex items-center w-full my-4 -ml-1.5 cursor-pointer'>
       <div className='w-1/12 z-10'>
-        <ProfileDot />
+        <div className='dot' />
       </div>
       <button
         onClick={() => toggleShow()}
