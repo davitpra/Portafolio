@@ -1,15 +1,17 @@
 import Link from 'next/link'
 import { DarkMode } from './DarkMode'
 import ProfileBubble from './ProfileBubble'
+import { usePathname } from 'next/navigation'
+
+const navigation = [
+  { label: 'Home', path: '/' },
+  { label: 'Projects', path: '/projects' },
+  { label: 'Experience', path: '/experience' },
+  { label: 'Information', path: '/info' }
+]
 
 export const Header = () => {
-  const navigation = [
-    { label: 'Home', path: '/' },
-    { label: 'Projects', path: '/projects' },
-    { label: 'Experience', path: '/experience' },
-    { label: 'Information', path: '/info' }
-  ]
-
+  const pathName = usePathname()
   return (
     <header className='h-28 lg:h-20 px-6 flex items-center justify-between border-b-4 border-tertiary dark:border-white z-10'>
       <ProfileBubble />
@@ -18,7 +20,7 @@ export const Header = () => {
           <Link
             href={nav.path}
             key={nav.label}
-            className='text-xl font-semibold traslation_animated hover:text-primary hover:font-bold'
+            className={`text-xl traslation_animated hover:font-bold ${nav.path === pathName ? 'font-bold text-primary' : ''}`}
           >
             {nav.label}
           </Link>
