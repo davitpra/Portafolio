@@ -23,7 +23,7 @@ const projects = () => {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex)
   }
-  console.log(projectsInfo[currentIndex].url)
+
   return (
     <>
       <div className='w-full flex flex-col md:flex-row my-4 md:space-x-4'>

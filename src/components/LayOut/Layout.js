@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Header } from './Header'
 import { Montserrat } from '@next/font/google'
+
 const montserrat = Montserrat(
   {
     subsets: ['latin'],

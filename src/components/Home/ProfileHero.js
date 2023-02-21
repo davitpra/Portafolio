@@ -1,10 +1,23 @@
 import Border from '../Border'
 import { PrimaryButton } from '../PrimaryButton'
 import { SecondaryButton } from '../SecondaryButton'
+import { motion } from 'framer-motion'
 
 export const ProfileHero = () => {
   return (
-    <>
+    <motion.div
+      initial={{ y: -10 }}
+      animate={{ y: 0 }}
+      transition={{
+        duration: 0.6
+      }}
+      exit={{
+        opacity: 0,
+        transition: {
+          duration: 0.6
+        }
+      }}
+    >
       <Border height='h-[60%] bottom-0' className='my-4'>
         <div className='flex flex-col items-center '>
           {/* imagen */}
@@ -22,17 +35,15 @@ export const ProfileHero = () => {
         </div>
         {/* Bottones */}
         <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
-          {/* Botton de Correo */}
           <PrimaryButton className='md:w-44'>
             Correo
           </PrimaryButton>
-          {/* Botton de Message */}
           <SecondaryButton className='md:w-44'>
             WhatsApp
           </SecondaryButton>
         </div>
       </Border>
-    </>
+    </motion.div>
 
   )
 }
