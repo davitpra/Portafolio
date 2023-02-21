@@ -9,7 +9,7 @@ export default function App ({ Component, pageProps, router }) {
     <ThemeProvider attribute='class'>
       <Particle />
       <Layout>
-        <AnimatePresence mode='wait' initial={false}>
+        <AnimatePresence mode='wait'>
           <Component {...pageProps} key={router.asPath} />
         </AnimatePresence>
       </Layout>

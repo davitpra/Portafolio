@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function useSlide (projectsInfo) {
+export function useSlide (projectsInfo) {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const prevSlide = () => {
@@ -27,5 +27,3 @@ function useSlide (projectsInfo) {
     goToSlide
   }
 }
-
-export default useSlide

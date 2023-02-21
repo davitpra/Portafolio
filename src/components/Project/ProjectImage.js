@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectImage ({ projectInfo }) {
+export function ProjectImage ({ projectInfo }) {
   return (
     <div className='flex-1'>
       <div
@@ -10,5 +10,3 @@ function ProjectImage ({ projectInfo }) {
     </div>
   )
 }
-
-export default ProjectImage
