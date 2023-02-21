@@ -9,7 +9,9 @@ export default function App ({ Component, pageProps, router }) {
     <ThemeProvider attribute='class'>
       <Particle />
       <Layout>
+        {/* Añades la propiedad mode wait para que anime cuando la anterior haya terminado */}
         <AnimatePresence mode='wait'>
+          {/* añades key router.asPath para que lea las animaciones de salida de sus elementos hijos */}
           <Component {...pageProps} key={router.asPath} />
         </AnimatePresence>
       </Layout>

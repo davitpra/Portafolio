@@ -26,7 +26,10 @@
         @apply text-4xl font-semibold text-primary;
     }
     .dot {
-        @apply w-3.5 h-3.5 bg-blue-600 rounded-full
+        @apply w-3.5 h-3.5 bg-primary rounded-full
+    }
+    .underline{
+        @apply absolute h-1 -bottom-2 left-0 right-0 bg-primary
     }
 }
  
