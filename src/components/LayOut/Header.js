@@ -3,6 +3,7 @@ import { DarkMode } from './DarkMode'
 import { ProfileBubble } from './ProfileBubble'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
+import { Menu } from './Menu/Menu'
 
 const navigation = [
   { label: 'Home', path: '/' },
@@ -36,6 +37,7 @@ export const Header = () => {
       </div>
       <div className='justify-end '>
         <DarkMode />
+        <Menu />
       </div>
     </header>
   )

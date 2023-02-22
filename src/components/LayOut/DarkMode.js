@@ -25,7 +25,7 @@ export const DarkMode = () => {
     if (!mounted) return null
     return (
       <Button
-        className='bg-secondary justify-center items-center'
+        className='bg-secondary justify-center items-center hidden md:flex'
         onClick={() => {
           setTheme('light')
           setDarkMode('light')
@@ -37,7 +37,7 @@ export const DarkMode = () => {
   } else {
     return (
       <Button
-        className='bg-fourthy justify-center items-center'
+        className='bg-fourthy justify-center items-center hidden md:flex'
         onClick={() => {
           setTheme('dark')
           setDarkMode('dark')
