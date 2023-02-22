@@ -10,15 +10,21 @@ const variants = {
   }
 }
 
-export const Navigation = () => (
-  <motion.ul
-    variants={variants}
-    className='p-6 absolute top-[100px] right-0 w-[230px]'
-  >
-    {itemIds.map(i => (
-      <MenuItem i={i} key={i} />
-    ))}
-  </motion.ul>
-)
+export const Navigation = ({ isOpen }) => {
+  return (
+    <motion.ul
+      variants={variants}
+      className={`p-4 absolute top-[110px] right-0 w-full rounded-lg 
+      ${isOpen
+        ? 'bg-fourthy border-2 border-tertiary dark:bg-darkPrimary dark:border-white'
+        : 'bg-transparent'}
+      `}
+    >
+      {itemIds.map(i => (
+        <MenuItem i={i} key={i} />
+      ))}
+    </motion.ul>
+  )
+}
 
 const itemIds = [0, 1, 2, 3, 4]
