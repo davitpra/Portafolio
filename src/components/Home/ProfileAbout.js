@@ -4,7 +4,7 @@ export const ProfileAbout = () => {
   return (
     <Border className=''>
       <h4 className='title'>About</h4>
-      <p className='text-lg mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptates obcaecati numquam error et ut fugiat asperiores. Sunt nulla ad incidunt laboriosam, laudantium est unde natus cum numquam, neque facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, magni odio magnam commodi sunt ipsum eum! Voluptas eveniet aperiam at maxime, iste id dicta autem odio laudantium eligendi commodi distinctio!</p>
+      <p className='text-lg mt-2'>I am a React Frontend Developer with experience in ecommerce and successful collaborations with marketing teams. I specialize in solving problems in online stores and I am looking for new opportunities to work on challenging projects. I focus on staying up-to-date with the latest technologies and continuously improving my technical skills.</p>
     </Border>
   )
 }

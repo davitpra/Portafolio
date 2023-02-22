@@ -10,7 +10,8 @@ export const resumeInfo = [
     description: "Currently, I'm working at a dropshipping company that sells various products in the Ecuadorian market. My main task is to design product landing pages, creating a sales funnel and collecting marketing information using Facebook, Google, and Tik-Tok pixels to find the right audience for ads and optimize them.",
     toDos: [
       '- Landing Page Designer on Shopify Platform',
-      '- Web funnel Designer'
+      '- Design web sales funnel',
+      '- Add tracking pixels to web pages'
     ],
     place: 'Quito - EC'
   },
