@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { DarkModeMenu } from './DarkModeMenu'
 
 const navigation = [
   { label: 'Home', path: '/' },
@@ -24,6 +25,7 @@ export const Navigation = ({ toggle }) => {
           <li className='ml-4 text-2xl my-6'> {nav.label} </li>
         </Link>
       ))}
+      <DarkModeMenu />
     </ul>
   )
 }
