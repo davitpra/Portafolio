@@ -1,30 +1,29 @@
-import { motion } from 'framer-motion'
-import { MenuItem } from './MenuItem'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
-const variants = {
-  open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
-  },
-  closed: {
-    transition: { staggerChildren: 0.05, staggerDirection: -1 }
-  }
-}
+const navigation = [
+  { label: 'Home', path: '/' },
+  { label: 'Projects', path: '/projects' },
+  { label: 'Experience', path: '/experience' },
+  { label: 'Information', path: '/info' }
+]
 
-export const Navigation = ({ isOpen }) => {
+export const Navigation = ({ toggle }) => {
+  const pathName = usePathname()
   return (
-    <motion.ul
-      variants={variants}
-      className={`p-4 absolute top-[110px] right-0 w-full rounded-lg 
-      ${isOpen
-        ? 'bg-fourthy border-2 border-tertiary dark:bg-darkPrimary dark:border-white'
-        : 'bg-transparent'}
-      `}
+    <ul
+      className='p-4 pb-8 absolute top-[110px] right-0 w-full rounded-lg bg-fourthy  dark:bg-darkPrimary border-2 border-tertiary my-2'
     >
-      {itemIds.map(i => (
-        <MenuItem i={i} key={i} />
+      {navigation.map(nav => (
+        <Link
+          key={nav.label}
+          onClick={() => toggle()}
+          href={nav.path}
+          className={`flex items-center ${nav.path === pathName ? 'font-bold text-primary' : ''}`}
+        >
+          <li className='ml-4 text-2xl my-6'> {nav.label} </li>
+        </Link>
       ))}
-    </motion.ul>
+    </ul>
   )
 }
-
-const itemIds = [0, 1, 2, 3, 4]

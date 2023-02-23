@@ -7,11 +7,10 @@ export const Menu = () => {
   const [isOpen, toggleOpen] = useState(false)
   return (
     <motion.nav
-      initial={false}
       animate={isOpen ? 'open' : 'closed'}
-      className='md:hidden absolute top-4 right-0 bottom-0 w-full h-full'
+      className='md:hidden w-full h-full'
     >
-      <Navigation isOpen={isOpen} />
+      {isOpen && <Navigation toggle={toggleOpen} />}
       <MenuToggle toggle={() => toggleOpen(!isOpen)} />
     </motion.nav>
   )
