@@ -3,7 +3,6 @@ import { DarkMode } from './DarkMode'
 import { ProfileBubble } from './ProfileBubble'
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { Menu } from './Menu/Menu'
 
 const navigation = [
   { label: 'Home', path: '/' },
@@ -15,7 +14,7 @@ const navigation = [
 export const Header = () => {
   const pathName = usePathname()
   return (
-    <header className='h-28 md:h-20 w-full px-6 flex items-center justify-between border-b-2 border-tertiary md:border-b-0 left-0 top-0 z-20'>
+    <header className='fixed md:static h-28 md:h-20 w-full px-6 flex items-center justify-between border-b-2 border-tertiary md:border-b-0 left-0 top-0 z-20 bg-tertiary dark:bg-darkPrimary md:bg-transparent md:dark:bg-transparent'>
       <ProfileBubble />
       <ul className='hidden md:flex gap-4'>
         {navigation.map(nav =>
@@ -37,7 +36,6 @@ export const Header = () => {
       </div>
       <div className='justify-end '>
         <DarkMode />
-        <Menu />
       </div>
     </header>
   )
