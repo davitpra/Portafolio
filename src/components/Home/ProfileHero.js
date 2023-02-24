@@ -1,8 +1,13 @@
 import Border from '../Border'
-import { PrimaryButton } from '../PrimaryButton'
-import { SecondaryButton } from '../SecondaryButton'
+import ReactWhatsapp from 'react-whatsapp'
+import { jsPDF as JSPDF } from 'jspdf'
 
 export const ProfileHero = () => {
+  const downloadCV = () => {
+    const doc = new JSPDF('portrait', 'px', 'a4', false)
+    doc.addImage('./resume/Web Developer - David Prado.png', 'PNG', 0, 0, 460, 652)
+    doc.save('Web Developer - David Prado.pdf')
+  }
   return (
     <Border height='h-[60%] bottom-0' className='my-4'>
       <div className='flex flex-col items-center '>
@@ -21,12 +26,16 @@ export const ProfileHero = () => {
       </div>
       {/* Bottones */}
       <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
-        <PrimaryButton className='md:w-44'>
-          Correo
-        </PrimaryButton>
-        <SecondaryButton className='md:w-44'>
+        <button className='primary_button md:w-44' onClick={() => downloadCV()}>
+          Curriculum
+        </button>
+        <ReactWhatsapp
+          number='+593998366616'
+          message='Hi David! I saw your profile and I have some questions'
+          className='secondary_button md:w-44'
+        >
           WhatsApp
-        </SecondaryButton>
+        </ReactWhatsapp>
       </div>
     </Border>
   )
