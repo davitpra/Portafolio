@@ -8,6 +8,8 @@ export const projectsInfo = [
       'ultra fast',
       'React with Typescript'
     ],
+    demoUrl: 'https://avo-store-gamma.vercel.app/',
+    gitHubUrl: 'https://github.com/davitpra/avoStore',
     skills: [
       {
         name: 'Next js',
@@ -44,6 +46,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/petgram.png',
     name: 'Petgram',
+    demoUrl: 'https://petgram-dbyte.vercel.app/',
+    gitHubUrl: 'https://github.com/davitpra/Petgram',
     description: 'A social media app designed for animal lovers and their pets, with the ability to filter posts by animal type, save favorite posts, and log in.',
     features: [
       'Styled with styled components',
@@ -81,6 +85,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/theMovieDB.png',
     name: 'The Movie DB',
+    demoUrl: 'https://davitpra.github.io/The-Movie-DB/',
+    gitHubUrl: 'https://github.com/davitpra/The-Movie-DB',
     description: 'TheMovieDB is a movie search SPA that allows users to view trending movies, filter by genre, add movies to favorites, and view movie descriptions.',
     features: [
       'real and updated search',
@@ -118,6 +124,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/bookingTicket.png',
     name: 'Booking Ticket',
+    demoUrl: 'https://davitpra.github.io/bookingTicket/',
+    gitHubUrl: 'https://github.com/davitpra/bookingTicket',
     description: 'The app searches and books airplane tickets by country and number of passengers, and uses XState to handle the process states and improve service quality.',
     features: [
       'Workflow with state machines',
@@ -155,6 +163,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/gitSearcher.png',
     name: 'Git Searcher',
+    demoUrl: 'https://gitsearcher-iota.vercel.app/',
+    gitHubUrl: 'https://github.com/davitpra/gitsearcher',
     description: 'Web app that displays Github developer profiles with repository, contact and professional information to facilitate talent search and discovery',
     features: [
       'Mockup with Material UI',
@@ -192,6 +202,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/pokedux.png',
     name: 'Pokedux',
+    demoUrl: 'https://davitpra.github.io/Pokedux/',
+    gitHubUrl: 'https://github.com/davitpra/Pokedux',
     description: 'The perfect website for Pokémon lovers, used to master state with Redux and React',
     features: [
       'Redux with React.js',
@@ -234,6 +246,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/To-Do-List-React.png',
     name: 'To Do List',
+    demoUrl: 'https://davitpra.github.io/To-Do-List-React/',
+    gitHubUrl: 'https://github.com/davitpra/To-Do-List-React',
     description: 'A task management application built in React that allows you to create and manage your task lists with ease.',
     features: [
       'Use Local Storage',
@@ -281,6 +295,8 @@ export const projectsInfo = [
   {
     url: '/img/projects/travelAgency.png',
     name: 'Travel Angency',
+    demoUrl: 'https://travel-agency-flame.vercel.app/',
+    gitHubUrl: 'https://github.com/davitpra/Travel-Agency',
     description: 'Travel landing page with attractive and simple UX, useful content, and clear structure to attract customers and increase sales.',
     features: [
       'Use Next.js',

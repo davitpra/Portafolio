@@ -1,8 +1,7 @@
+import Link from 'next/link'
 import Border from '../Border'
-import { PrimaryButton } from '../PrimaryButton'
-import { SecondaryButton } from '../SecondaryButton'
 
-export const ProjectCard = ({ name, description, features }) => {
+export const ProjectCard = ({ name, description, features, demoUrl, gitHubUrl }) => {
   return (
     <Border className='h-2/3'>
       <h1 className=' title mb-4'>
@@ -24,14 +23,14 @@ export const ProjectCard = ({ name, description, features }) => {
       }
 
       <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
-        {/* Botton de Correo */}
-        <PrimaryButton>
+        {/* Botton de Demo */}
+        <Link href={demoUrl} target='_blank' className='primary_button text-center' rel='noreferrer'>
           Demo
-        </PrimaryButton>
-        {/* Botton de Message */}
-        <SecondaryButton>
+        </Link>
+        {/* Botton de Github */}
+        <Link href={gitHubUrl} target='_blank' className='secondary_button text-center' rel='noreferrer'>
           GitHub
-        </SecondaryButton>
+        </Link>
       </div>
     </Border>
 
