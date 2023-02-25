@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const profile = () => {
   return (
-    <div className='h-screen w-full'>
+    <div className='w-full mb-4'>
       <motion.div
         initial={{ y: -10 }}
         animate={{

@@ -13,7 +13,7 @@ export const Navigation = ({ toggle }) => {
   const pathName = usePathname()
   return (
     <ul
-      className='p-4 pb-8 absolute top-[110px] right-0 w-full rounded-lg bg-fourthy  dark:bg-darkPrimary border-2 border-tertiary my-2'
+      className='p-4 pb-8 absolute top-[100px] md:top-[80px] right-0 w-full md:w-1/3 rounded-lg bg-fourthy  dark:bg-darkPrimary border-2 border-tertiary my-2'
     >
       {navigation.map(nav => (
         <Link

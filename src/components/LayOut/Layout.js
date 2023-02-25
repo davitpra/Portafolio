@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Header } from './Header'
 import { Montserrat } from '@next/font/google'
+import { TabBar } from './TabBar'
 
 const montserrat = Montserrat(
   {
@@ -17,9 +18,10 @@ export const Layout = ({ children }) => {
       </Head>
       <div className='relative min-h-screen flex flex-col'>
         <Header />
-        <main className={`mt-[112px] md:mt-0 flex-grow mb-4 ${montserrat.className}`}>
+        <main className={`md:mt-0 flex-grow mb-[76px] md:mb-0 ${montserrat.className}`}>
           {children}
         </main>
+        <TabBar />
       </div>
     </>
   )

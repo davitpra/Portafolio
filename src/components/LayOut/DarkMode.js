@@ -1,9 +1,10 @@
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react'
 import { BsFillSunFill, BsMoonFill } from 'react-icons/bs'
-import { Button } from '../Button'
 
-export const DarkMode = () => {
+const SIZE = '25px'
+
+export const DarkMode = ({ className }) => {
   // estado para sabe si el button ya fue renderizado
   const [mounted, setMounted] = useState(false)
   // variables para obtener el theme del navegador
@@ -24,27 +25,27 @@ export const DarkMode = () => {
   if (darkMode === 'dark') {
     if (!mounted) return null
     return (
-      <Button
-        className='bg-secondary justify-center items-center hidden md:flex'
+      <button
+        className={`simple_button ${className}`}
         onClick={() => {
           setTheme('light')
           setDarkMode('light')
         }}
       >
-        <BsFillSunFill size='25px' />
-      </Button>
+        <BsFillSunFill size={SIZE} />
+      </button>
     )
   } else {
     return (
-      <Button
-        className='bg-fourthy justify-center items-center hidden md:flex'
+      <button
+        className={`simple_button ${className}`}
         onClick={() => {
           setTheme('dark')
           setDarkMode('dark')
         }}
       >
-        <BsMoonFill size='25px' />
-      </Button>
+        <BsMoonFill size={SIZE} />
+      </button>
     )
   }
 }

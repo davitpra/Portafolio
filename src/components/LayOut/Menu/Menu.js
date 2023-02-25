@@ -8,7 +8,7 @@ export const Menu = () => {
   return (
     <motion.nav
       animate={isOpen ? 'open' : 'closed'}
-      className='md:hidden w-full h-full'
+      className='ring-2 ring-tertiary rounded-md hover:ring-primary hover:shadow-2xl flex justify-center items-center'
     >
       {isOpen && <Navigation toggle={toggleOpen} />}
       <MenuToggle toggle={() => toggleOpen(!isOpen)} />
