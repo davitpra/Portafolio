@@ -58,6 +58,7 @@ function work () {
           )}
         </ul>
       </ProfileWorkExperience>
+      <div id='modal-root' />
     </motion.div>
   )
 }
