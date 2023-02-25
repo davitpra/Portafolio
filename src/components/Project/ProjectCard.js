@@ -3,7 +3,7 @@ import Border from '../Border'
 
 export const ProjectCard = ({ name, description, features, demoUrl, gitHubUrl }) => {
   return (
-    <Border className='h-2/3'>
+    <Border className='h-2/3 mb-4'>
       <h1 className=' title mb-4'>
         Project
       </h1>
