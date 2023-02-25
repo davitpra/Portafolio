@@ -1,5 +1,5 @@
 import Border from '../Border'
-import ReactWhatsapp from 'react-whatsapp'
+import { Whatsapp } from '../LayOut/Whatsapp'
 import { jsPDF as JSPDF } from 'jspdf'
 
 export const ProfileHero = () => {
@@ -29,13 +29,11 @@ export const ProfileHero = () => {
         <button className='primary_button md:w-44' onClick={() => downloadCV()}>
           Curriculum
         </button>
-        <ReactWhatsapp
-          number='+593998366616'
-          message='Hi David! I saw your profile and I have some questions'
+        <Whatsapp
           className='secondary_button md:w-44'
         >
           WhatsApp
-        </ReactWhatsapp>
+        </Whatsapp>
       </div>
     </Border>
   )
