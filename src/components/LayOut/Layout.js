@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Header } from './Header'
-import { Montserrat } from '@next/font/google'
 import { TabBar } from './TabBar'
+import { Montserrat } from '@next/font/google'
 
 const montserrat = Montserrat(
   {

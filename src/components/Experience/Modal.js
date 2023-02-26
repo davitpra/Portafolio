@@ -1,6 +1,25 @@
 import { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
+import { motion } from 'framer-motion'
 import { MdClose } from 'react-icons/md'
+
+const variants = {
+  hidden: {
+    opacity: 0
+  },
+  content: {
+    opacity: 1,
+    transition: {
+      duration: 0.6
+    }
+  },
+  exit: {
+    opacity: 0,
+    transition: {
+      duration: 0.6
+    }
+  }
+}
 
 export function Modal ({ show, onClose, start, end, position, company, place, description, toDos }) {
   const [isBrowser, setIsBrowser] = useState(false)
@@ -15,7 +34,13 @@ export function Modal ({ show, onClose, start, end, position, company, place, de
 
   const modalContent = show
     ? (
-      <div className='max-w-2xl w-full h-screen md:h-auto rounded-lg shadow-xl ring-2 px-4 py-4 md:py-8 ring-secondary bg-fourthy dark:bg-darkPrimary z-20 fixed top-0 md:top-1/2 left-1/2 transform -translate-x-1/2 md:-translate-y-1/2 overflow-y-auto'>
+      <motion.div
+        initial='hidden'
+        animate='content'
+        exit='exit'
+        variants={variants}
+        className='max-w-2xl w-full h-screen md:h-auto rounded-lg shadow-xl ring-2 px-4 py-4 md:py-8 ring-secondary dark:ring-fourthy bg-fourthy dark:bg-darkPrimary z-20 fixed top-0 md:top-1/2 left-1/2 transform -translate-x-1/2 md:-translate-y-1/2 overflow-y-auto'
+      >
         <p className='text-xl text-tertiary mb-4'>{start} - {end}</p>
         <h3 className='font-bold text-2xl mb-4 text-primary'>{position}</h3>
         <h4 className='font-semibold mb-1'>{company}</h4>
@@ -37,7 +62,7 @@ export function Modal ({ show, onClose, start, end, position, company, place, de
         >
           <MdClose size='25px' />
         </button>
-      </div>
+      </motion.div>
       )
     : null
   if (isBrowser) {

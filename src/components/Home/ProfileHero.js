@@ -21,7 +21,7 @@ export const ProfileHero = () => {
           </span>
         </div>
         {/* Titulo y Lugar */}
-        <p className='text-2xl text-secondary dark:text-tertiary'>Junior Web Developer</p>
+        <p className='text-2xl text-secondary dark:text-tertiary'>Frontend Web Developer</p>
         <p className='text-xl'>Quito, Ecuador</p>
       </div>
       {/* Bottones */}

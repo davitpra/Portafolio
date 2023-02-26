@@ -23,7 +23,7 @@ export const resumeInfo = [
     },
     company: 'PUZZLE SALVAJE',
     position: 'Product Designer',
-    description: 'At Moderno store, we found a successful product that could be designed and produced: a jigsaw puzzle with unique pieces. With this idea in mind, we created the brand "Puzzle Salvaje" which means Wild Puzzles, which offers jigsaw puzzles with pieces of endemic animals from Ecuador. The idea was well received in the market and we were able to produce and sell thousands of puzzles, until the brand was eventually acquired.',
+    description: 'At Moderno store, we found a successful product that could be designed and produced: a jigsaw puzzle with unique pieces. With this idea in mind, we created the brand "Puzzle Salvaje" which means Wild Puzzles, which offers jigsaw puzzles with pieces of endemic animals from Ecuador. The idea was well received in the market and now the branch produces and sells hundreds of puzzles every month.',
     toDos: [
       '- Design the website on Shopify platform',
       '- Responsible for graphic design, prototype and production.',

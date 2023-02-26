@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Modal } from './Modal'
+import { motion } from 'framer-motion'
 
 export const ResumeCard = ({ className, time, date, company, position, toDos, place, description }) => {
   const [show, setShow] = useState(false)

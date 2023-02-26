@@ -33,7 +33,7 @@ export const Header = () => {
       </ul>
       <div className='flex flex-col ml-16 pl-4 w-full items-center md:hidden'>
         <h2 className='text-3xl font-semibold'> David Prado</h2>
-        <h3 className='text-xl text-tertiary '> Junior Developer</h3>
+        <h3 className='text-xl text-tertiary '> Frontend Developer</h3>
       </div>
       <div className='flex justify-end gap-4'>
         <DarkMode className='hidden md:flex w-[48px]' />
