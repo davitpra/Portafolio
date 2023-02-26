@@ -17,7 +17,7 @@ export function TabBar () {
   const pathName = usePathname()
   return (
     <nav
-      className='w-full h-auto px-6 py-4 flex items-center justify-between fixed left-0 bottom-0 md:hidden bg-white dark:bg-darkPrimary border-t-2 border-tertiary z-30'
+      className='w-full h-auto px-6 py-4 flex items-center justify-between fixed left-0 bottom-0 md:hidden bg-white dark:bg-darkPrimary border-t-2 border-tertiary z-10'
     >
       <DarkMode />
       {navigation.map(nav => {

@@ -21,6 +21,8 @@ export const Layout = ({ children }) => {
         <main className={`md:mt-0 flex-grow mb-[76px] md:mb-0 ${montserrat.className}`}>
           {children}
         </main>
+        {/* MODAL */}
+        <div id='modal-root' />
         <TabBar />
       </div>
     </>
