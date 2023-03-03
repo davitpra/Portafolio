@@ -5,7 +5,7 @@ const info = [
   { question: 'Github:', answer: 'davitpra' },
   { question: 'Mobile:', answer: '(+593) 99-836-6616' },
   { question: 'Email:', answer: 'david@devprado.com' },
-  { question: 'Location:', answer: 'Quito, EC.' },
+  { question: 'Address:', answer: 'Quito, EC.' },
   { question: 'Languages:', answer: 'English, Spanish' },
   { question: 'LinkedIn:', answer: 'davitprado' },
   { question: 'Birthday:', answer: '18 Feb, 1993' }
