@@ -2,7 +2,7 @@ import Border from '../Border'
 
 export const ProfileEducation = () => {
   const educationInfo = [
-    { start: 'November 2021', end: 'In Course', title: 'Full Stack Developer', school: 'Platzi - Web Developer School' },
+    { start: 'November 2021', end: 'May 2023', title: 'Full Stack Developer', school: 'Platzi - Web Developer School' },
     { start: 'November 2021', end: 'January 2023', title: 'React Frontend Developer', school: 'Platzi - Web Developer School' },
     { start: 'September 2011', end: 'May 2018', title: 'Civil Engineer', school: 'Nacional Politecnical School' }
   ]
