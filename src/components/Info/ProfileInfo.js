@@ -3,9 +3,9 @@ import Border from '../Border'
 const info = [
   { question: 'Full name:', answer: 'José David Prado Garrido' },
   { question: 'Github:', answer: 'davitpra' },
-  { question: 'Mobile:', answer: '(+593) 99-836-6616' },
-  { question: 'Email:', answer: 'david@devprado.com' },
-  { question: 'Address:', answer: 'Quito, EC.' },
+  { question: 'Mobile:', answer: '(+1) 519-872-5274' },
+  { question: 'Email:', answer: 'davitprado@outlook.com' },
+  { question: 'Address:', answer: 'London, ON, Canada.' },
   { question: 'Languages:', answer: 'English, Spanish' },
   { question: 'LinkedIn:', answer: 'davitprado' },
   { question: 'Birthday:', answer: '18 Feb, 1993' }

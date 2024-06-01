@@ -21,8 +21,8 @@ export const ProfileHero = () => {
           </span>
         </div>
         {/* Titulo y Lugar */}
-        <p className='text-2xl text-secondary dark:text-tertiary'>Frontend Web Developer</p>
-        <p className='text-xl'>Quito, Ecuador</p>
+        <p className='text-2xl text-secondary dark:text-tertiary'>Full Stack Web Developer</p>
+        <p className='text-xl'>London, Ontario</p>
       </div>
       {/* Bottones */}
       <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
